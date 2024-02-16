@@ -55,7 +55,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "viewType", Snackbar.LENGTH_LONG).show();
+                Snackbar.make(view, "snacco", Snackbar.LENGTH_LONG).show();
             }
         });
 
